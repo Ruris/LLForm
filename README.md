@@ -22,7 +22,7 @@ pod 'LLForms', :git => 'https://github.com/Ruris/LLForms.git'
 
 ## Author
 
-ZHK1024, ZHK1024@foxmail.com
+ZHK1024(Ruris), ZHK1024@foxmail.com
 
 ## License
 
