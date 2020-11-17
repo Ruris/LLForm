@@ -1,0 +1,16 @@
+PODS:
+  - LLForm (0.1.0)
+
+DEPENDENCIES:
+  - LLForm (from `../`)
+
+EXTERNAL SOURCES:
+  LLForm:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LLForm: 374345cf5b55aa937f874a964108bdbf1ffc4b3c
+
+PODFILE CHECKSUM: b4ebc9e183c3a601f2028ef9438cddb899c367c1
+
+COCOAPODS: 1.9.3

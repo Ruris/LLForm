@@ -1,0 +1,12 @@
+use_frameworks!
+
+target 'LLForm_Example' do
+  pod 'LLForm', :path => '../'
+
+  target 'LLForm_Tests' do
+    inherit! :search_paths
+
+#    pod 'FBSnapshotTestCase' , '~> 2.1.4'
+    
+  end
+end
