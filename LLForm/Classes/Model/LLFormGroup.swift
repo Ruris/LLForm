@@ -6,8 +6,13 @@
 //  
 //
 
-import Foundation
+import UIKit
 
-public struct LLFormGroup {
+public struct LLFormGroup: Codable {
     
+    public var items: [LLFormItem]?
+    
+//    public var headView: UIView?
+//
+//    public var footView: UIView?
 }

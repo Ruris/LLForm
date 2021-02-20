@@ -24,7 +24,7 @@ TODO: Add long description of the pod here.
   s.homepage         = 'https://github.com/Ruris/LLForm'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'ZHK1024' => 'ZHK1024@foxmail.com' }
+  s.author           = { 'ZHK1024(Ruris)' => 'ZHK1024@foxmail.com' }
   s.source           = { :git => 'https://github.com/Ruris/LLForm.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
   

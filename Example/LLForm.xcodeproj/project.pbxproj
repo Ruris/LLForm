@@ -16,6 +16,7 @@
 		61F6E4C6914266196361374E /* Pods_LLForm_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 486BCB0388737CBCE9357204 /* Pods_LLForm_Tests.framework */; };
 		91A764242563789D00102C03 /* Pods_LLForm_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91A764232563789D00102C03 /* Pods_LLForm_Example.framework */; };
 		91A764252563789D00102C03 /* Pods_LLForm_Example.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 91A764232563789D00102C03 /* Pods_LLForm_Example.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		91A7644E2563A9F900102C03 /* FormConfigViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A7644D2563A9F900102C03 /* FormConfigViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		91A763FC2563768000102C03 /* LLForm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = LLForm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		91A7641D2563788A00102C03 /* LLForm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = LLForm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		91A764232563789D00102C03 /* Pods_LLForm_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_LLForm_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		91A7644D2563A9F900102C03 /* FormConfigViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormConfigViewController.swift; sourceTree = "<group>"; };
 		AF0D18C69A3F7F98621319DA /* Pods-LLForm_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LLForm_Tests.release.xcconfig"; path = "Target Support Files/Pods-LLForm_Tests/Pods-LLForm_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		B95C3710E803A049D892CD59 /* LLForm.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LLForm.podspec; path = ../LLForm.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		C2CD260142C2E013A9B40304 /* Pods-LLForm_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LLForm_Example.release.xcconfig"; path = "Target Support Files/Pods-LLForm_Example/Pods-LLForm_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -113,6 +115,7 @@
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
+				91A7644D2563A9F900102C03 /* FormConfigViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
@@ -354,6 +357,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91A7644E2563A9F900102C03 /* FormConfigViewController.swift in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);

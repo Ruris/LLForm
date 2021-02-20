@@ -7,3 +7,9 @@
 //
 
 import Foundation
+
+public struct LLForm: Codable {
+    
+    public var groups: [LLFormGroup]?
+
+}
